@@ -2,9 +2,7 @@
 
 /**
  *
- * main - prints the standrad error sandwiched around the  standard outpu/t
- *
- *
+ * main - Entry point
  *
  * Return: returns 1
  *
