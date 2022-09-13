@@ -24,7 +24,7 @@ putchar('\n');
 else
 {
 printf(", ");
-}	
+}
 }
 return (0);
 }
