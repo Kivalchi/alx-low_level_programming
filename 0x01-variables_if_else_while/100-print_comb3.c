@@ -12,21 +12,23 @@
 int main(void)
 
 {
-int number_left;
-int number_right;
-for (number_left = 48; number_right <= 78; number_left++)
+int c;
+int d = 0;
+while (d < 10)
 {
-for (number_right = number_left + 1 ; number_right <= 78; number_right++)
+c = 0;
+while (c < 10)
 {
-putchar(number_left);
-putchar (number_right);
-if ((number_left == 56) && (number_right == 78))
+putchar('0' + d);
+putchar('0' + c);
+if (c + d != 18)
 {
-break;
-}
 putchar(',');
-putchar (' ');
+putchar(' ');
 }
+c++;
+}
+d++;
 }
 putchar('\n');
 return (0);
