@@ -7,8 +7,6 @@
  *
  *@s: the string to print in reverse.
  *
- *
- *
  */
 
 
