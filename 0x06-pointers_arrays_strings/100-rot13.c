@@ -1,7 +1,5 @@
 #include "main.h"
 
-
-
 /**
  * rot13 -  a   function that encodes a string using rot13.
  *
@@ -12,7 +10,7 @@
  */
 
 char *rot13(char *s)
-
+	
 {
 int i = 0;
 while (s[i] != '\0')
